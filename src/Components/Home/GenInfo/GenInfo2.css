@@ -1,33 +1,49 @@
 .genInfoSection2 {
     display: flex;
-    height: 250px;
-    padding: 25px 100px 25px 70px;
-
+    
+    padding: 25px 300px 15px 210px;
+    height: 100%;
 }
 
 .genInfoSection2 img {
-    width: 100%;
+    width: 80%;
+    height: 250px;
 }
 
 .genInfoSection2 p {
-    min-width: 300px;
+    height: 250px;
+    padding: 10px;
     text-align: justify;
     padding: 15px;
     margin: 0;
     color: rgba(255, 255, 255, 0.9);
-        background-color: rgba(255, 255, 255, 0.25);
-    border-top-left-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.25);
     border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
     line-height: 22px;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1700px) {
     .genInfoSection2 {
-        
-        padding: 50px 20px;
+        display: flex;
+        padding: 50px 20px 50px 20px;
     }
 
     .genInfoSection2 img {
-        width: 80%;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1335px) {
+    .genInfoSection2 {
+        display: block;
+        padding: 50px 20px 50px 20px;
+    }
+
+    .genInfoSection2 img {
+        width: 100%;
+    }
+    .genInfoSection2 p{
+        height:150px;
     }
 }

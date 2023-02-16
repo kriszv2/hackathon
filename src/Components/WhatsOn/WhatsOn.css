@@ -1,0 +1,34 @@
+main {
+    background: linear-gradient(to bottom,
+            #051122,
+            #0a1c3a,
+            #051122);
+}
+.whats-on-sec-3{
+    display: flex;
+    padding: 25px 300px 15px 210px;
+    margin: auto;
+}
+.whats-on-sec-3 p{
+    padding: 5px;
+    color: aliceblue;
+}
+@media only screen and (max-width: 1700px) {
+    .whats-on-sec-3 {
+        
+        padding: 50px 20px 50px 20px;
+    }
+
+    
+}
+@media only screen and (max-width: 850px) {
+    .whats-on-sec-3 {
+    
+            display: block;
+        }
+    .whats-on-sec-3 img{
+        width:100%;
+    }
+
+    
+}

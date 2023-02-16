@@ -11,7 +11,7 @@ export default function Home() {
           <GenInfo />
           <GenInfo2 />
           <GenInfo />
-            </main>
+      </main>
             
   )
 }

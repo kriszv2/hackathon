@@ -1,0 +1,44 @@
+.carousel{
+    width:80%;
+}
+.carousel .carousel-item {
+    height: 300px;  
+}
+
+.carousel-item img {
+    
+    
+    min-height: 300px;
+}
+.carousel-section{
+    display:flex;
+    padding: 25px 300px 15px 210px;
+}
+.carousel-section span {
+    max-width:400px;
+    padding-left:25px;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.carousel-section span h2{
+    text-align: center;
+}
+@media only screen and (max-width: 1700px) {
+    .carousel-section {
+        display: flex;
+        padding: 50px 20px 50px 20px;
+    }
+
+    
+}
+@media only screen and (max-width: 1250px) {
+    .carousel-section {
+        display: block;
+        padding: 30px;
+    }
+    .carousel{
+        width:100%;
+    }
+}

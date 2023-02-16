@@ -1,14 +1,16 @@
 .genInfoSection{
     display: flex;
-  height:250px;
-  padding: 50px 100px 50px 70px;
+  
+  padding: 25px 300px 15px 210px;
+  height: 100%;
     
 }
 .genInfoSection img{
-    width:100%;
+    width:80%;
+    height:250px;
 }
 .genInfoSection p{
-    min-width: 300px;
+    height: 250px;
     padding: 10px;
     text-align:justify;
     padding: 15px;
@@ -19,12 +21,26 @@
     border-top-right-radius: 5px;
     line-height: 22px;
 }
-@media only screen and (max-width: 1600px) {
+
+@media only screen and (max-width: 1700px) {
     .genInfoSection {
             display: flex;
             padding: 50px 20px 50px 20px;
         }
         .genInfoSection img{
-            width: 80%;
+            width: 70%;
+        }
+}
+@media only screen and (max-width: 1335px) {
+    .genInfoSection {
+        display: block;
+        padding: 50px 20px 50px 20px;
+    }
+
+    .genInfoSection img {
+        width: 100%;
+    }
+    .genInfoSection p {
+            height: 200px;
         }
 }
