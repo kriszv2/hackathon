@@ -1,0 +1,30 @@
+.genInfoSection{
+    display: flex;
+  height:250px;
+  padding: 50px 100px 50px 70px;
+    
+}
+.genInfoSection img{
+    width:100%;
+}
+.genInfoSection p{
+    min-width: 300px;
+    padding: 10px;
+    text-align:justify;
+    padding: 15px;
+    margin:  0;
+    color: rgba(255, 255, 255,0.9);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    line-height: 22px;
+}
+@media only screen and (max-width: 1600px) {
+    .genInfoSection {
+            display: flex;
+            padding: 50px 20px 50px 20px;
+        }
+        .genInfoSection img{
+            width: 80%;
+        }
+}

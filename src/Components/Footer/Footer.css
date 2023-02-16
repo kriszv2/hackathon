@@ -1,0 +1,7 @@
+footer{
+    width:100%;
+    height:150px;
+    background: radial-gradient(circle, #0a1c3a, #051122);
+    color:white;
+    text-align: center;
+}
