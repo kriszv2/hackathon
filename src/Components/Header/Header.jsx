@@ -1,13 +1,14 @@
-import React from 'react'
-import "./Header.css"
+import React from 'react';
+import {Link} from 'react-router-dom';
+import "./Header.css";
 export default function Header() {
   return (
       <header>
           <nav className="nav">
-              <a href='/'><img src="logo.png" alt="" /></a>
-              <a href="/">Home</a>
-              <a href="/">What's On</a>
-              <a href="/">Sign Up</a>
+              <Link to='/'><img src="logo.png" alt="" /></Link>
+              <Link to="/">Home</Link>
+              <Link to="whatson">What's On</Link>
+              <Link to="signup">Sign Up</Link>
           </nav>
     </header>
   )
